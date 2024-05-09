@@ -1,0 +1,74 @@
+.navbar {
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+  background-color: bisque;
+}
+.img {
+  height: 95px;
+}
+
+.mid {
+  display: flex;
+  gap: 50px;
+  font-size: 30px;
+}
+
+.mid a {
+  color: blue;
+  text-decoration: none;
+}
+.btn {
+  height: 30px;
+  font-size: 20px;
+  width: 100px;
+  background-color: rgb(8, 193, 240);
+  color: antiquewhite;
+  border-radius: 6px;
+}
+
+.hero {
+  display: flex;
+  border-radius: 9px;
+  border: 5px solid rgb(0, 0, 0);
+  justify-content: space-evenly;
+  height: auto;
+  align-items: center;
+  background-size: 1000px;
+  background-color: skyblue;
+}
+
+.imgg {
+  height: 500px;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btnn {
+  display: flex;
+  height: 30px;
+  font-size: 20px;
+  width: auto;
+  background-color: darkblue;
+  color: white;
+  border-radius: 9px;
+}
+.ppp {
+  display: flex;
+  border-radius: 9px;
+  color: red;
+  border-radius: 200px solid;
+  background-color: antiquewhite;
+  padding-right: 10px;
+  display: flex;
+
+}
+
+.heding{
+ display: flex;
+}
