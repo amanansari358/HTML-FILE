@@ -1,0 +1,60 @@
+/* Boilerplate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reusable Css */
+.container {
+  padding: 0 100px;
+}
+
+/* Topbar */
+.heading {
+display: flex;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.btn {
+  border: 5px;
+  border-radius: 2px;
+  text-decoration-line: none;
+  padding-right: 30px;
+
+  grid-template-areas: none;
+}
+
+.social-btns {
+  display: flex;
+}
+.social a,
+.social span {
+  color: white;
+  text-decoration: none;
+}
+
+.call a {
+  color: azure;
+  text-decoration: none;
+}
+
+/* nav bar */
+
+.logo img {
+  height: 60px;
+}
+.display {
+  display: flex;
+  align-items: center;
+  background-color: skyblue;
+  justify-content: space-between;
+}
+
+.search-bar i{
+   
+   
+}
