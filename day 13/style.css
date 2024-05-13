@@ -10,31 +10,39 @@
   padding: 0 100px;
 }
 
-/* Topbar */
-.heading {
-display: flex;
-  background-color: blue;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.btn {
-  border: 5px;
-  border-radius: 2px;
-  text-decoration-line: none;
-  padding-right: 30px;
-
-  grid-template-areas: none;
+/* Topbar */
+.heading {
+  display: flex;
+  background-color: #264788;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  font-size: 16px;
 }
 
 .social-btns {
   display: flex;
+  gap: 10px;
+  align-items: center;
 }
+
 .social a,
 .social span {
   color: white;
   text-decoration: none;
+}
+
+.portal button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 4px 8px;
 }
 
 .call a {
@@ -43,18 +51,110 @@ display: flex;
 }
 
 /* nav bar */
-
-.logo img {
-  height: 60px;
-}
-.display {
+.navbar {
   display: flex;
   align-items: center;
-  background-color: skyblue;
+  background-color: #f8f9fa;
   justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.search-bar i{
-   
-   
+.logo {
+  text-align: center;
+  font-size: 14px;
 }
+
+.logo img {
+  height: 50px;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  width: 680px;
+  height: 40px;
+  padding-left: 12px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 0.5px solid gray;
+  outline: none;
+}
+
+.search-bar button {
+  height: 40px;
+  width: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0.5px solid gray;
+}
+
+.search-course {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.get-admission button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #dd4a2a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e9ecf3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img img {
+  height: 380px;
+}
+
+.inspire h1 {
+  color: #264788;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.inspire p {
+  font-size: 20px;
+  padding-bottom: 60px;
+}
+
+.community h2 {
+  color: #444444;
+  font-size: 30px;
+}
+
+.community p {
+  pad+ing-bottom: 100px;
+  font-size: 20px;
+}
+
+.Connect {
+  align-items: center;
+  display:flex;
+  gap: 10px; 
+  padding-top:5px;
+  
+}
+
+.whatsApp {
+ 
+ 
+}
+
+.fb {
+  font-size: 10px;
+  border: none;
+  background-size: 2px;
+}
+ 
+
