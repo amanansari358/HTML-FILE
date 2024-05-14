@@ -115,7 +115,7 @@
 }
 
 .hero-img img {
-  height: 380px;
+  height: 400px;
 }
 
 .inspire h1 {
@@ -128,33 +128,77 @@
   padding-bottom: 60px;
 }
 
+.community {
+  padding-bottom: 100px;
+}
+
 .community h2 {
   color: #444444;
   font-size: 30px;
 }
 
 .community p {
-  pad+ing-bottom: 100px;
   font-size: 20px;
 }
 
 .Connect {
-  align-items: center;
-  display:flex;
-  gap: 10px; 
-  padding-top:5px;
-  
+  justify-content: flex-start;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 150px;
 }
-
-.whatsApp {
- 
- 
-}
-
-.fb {
-  font-size: 10px;
+.whatsapp button {
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 5px;
   border: none;
-  background-size: 2px;
+  background-color: #00a884;
+  color: white;
 }
- 
 
+.facebok button {
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #264788;
+  color: white;
+}
+/* PLacement Section */
+
+.features {
+  text-align: center;
+}
+
+.para {
+  font-size: 20px;
+}
+
+.behavior img {
+  width: 150px;
+  padding-right: 20px;
+}
+/* About Section */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: #f8f9fa;
+}
+
+.learn-more button {
+  background-color: #264788;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
