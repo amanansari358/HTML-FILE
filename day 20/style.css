@@ -1,0 +1,70 @@
+1/* Base */
+. {
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  
+  
+}
+
+.certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ 
+}
+
+.Name{
+    position: relative;
+    bottom: 300px;
+    left: 355px;
+}
+
+.Cource{
+    position: relative;
+    bottom: 308px;
+    left: 280px;
+}
+
+.Day{
+    position: relative;
+    bottom: 290px;
+    left: 261px;
+}
+
+.Month{
+    position: relative;
+    bottom: 324px;
+    left: 295px;
+}
+
+.Year{
+    position: relative;
+    bottom: 358px;
+    left: 330px;
+}
+
+
+.Thank{
+    position: relative;
+    bottom: 300px;
+    left: 400px;
+}
+
+.signuter{
+    position:relative ;
+   left: 400px;
+    bottom: 450px;
+    width: 5px 10px;
+    font-size: 10px;
+ 
+}
+
+.sign{
+    position: relative;
+    left: 560px;
+    bottom: 426px;
+}
